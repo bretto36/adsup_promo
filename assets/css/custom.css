@@ -162,6 +162,20 @@ h6 {
 	font-size:16px;
 }
 
+img.logo-top {
+	position: absolute;
+	margin: 5px;
+	margin-top: -20px;
+	clear: both;
+	height: 70px;
+}
+
+@media screen and (max-width: 800px){
+	img.logo-top {
+		height: 60px;
+	}
+}
+
 .btn-default {
 	background-color:transparent;
 	border:2px solid #D0D0D0;
